@@ -5,9 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rock-paper-scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div id="intro">
+        <div class="intro-item">
+            <div>
+                You have been captured in an unending limbo,
+                to break free you must privail in the game of
+                Rock Paper Scisssors, <p>get to five(5) first to win.</p>
+            </div>
+            <button class="startButton"> START </button>
+        </div>
+    </div>
+
+    <div id="gameUi">
+        <div class="gameUi-item">
+            <button class="quit"> QUIT </button>
+
+            <div class="gameArea">
+                <div class="score">
+                    <div>
+                        <p class="info">COMPUTER</p>
+                        <img class="compScore" src="./image/0.png" alt="0">
+                    </div>
+
+                    <div>
+                        <p class="info">PLAYER</p>
+                        <img class="playerScore" src="./image/0.png" alt="0">
+                    </div>
+                </div>
+
+                <p class="choiceInfo">PICK A SIGN</p>
+
+                <div class="showSign">
+                    <img class="compSel" src="" alt="">
+                    <img class="playerSel" src="" alt="">
+                </div>
+
+                <ul>
+                    <li><button class="rock"><img src="./image/rock.png" alt="rock"></button></li>
+                    <li><button class="paper"><img src="./image/paper.png" alt="paper"></button></li>
+                    <li><button class="scissors"><img src="./image/scissors.png" alt="scissors"></button></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
-    
 </body>
 </html>
